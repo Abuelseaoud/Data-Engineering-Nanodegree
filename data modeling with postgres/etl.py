@@ -6,6 +6,15 @@ from sql_queries import *
 
 
 def process_song_file(cur, filepath):
+    """
+    Read json file of song &artist and 
+    insert them in DB according to song_table_insert & artist_table_insert 
+    from sql_queries
+    
+    Parameters:
+    cur(cursor):cursor object to database connection to execute from psycopg2
+    filepath(string):path of song file
+    """
     # open song file
     df =pd.read_json(filepath, lines=True)
 
@@ -21,6 +30,15 @@ def process_song_file(cur, filepath):
 
 
 def process_log_file(cur, filepath):
+    """
+    Read json file of log file ,gets time  &  users & songplay history and 
+    insert them in DB according to time_table_insert & user_table_insert & songplay_table_insert 
+    from sql_queries
+    
+    Parameters:
+    cur(cursor):cursor object to database connection to execute from psycopg2
+    filepath(string):path of log file
+    """
     # open log file
     df = pd.read_json(filepath, lines=True)
 
@@ -66,6 +84,16 @@ def process_log_file(cur, filepath):
 
 
 def process_data(cur, conn, filepath, func):
+    """
+    Walks through all files nested under filepath, and processes all logs found.
+    Parameters:
+        cur (psycopg2.cursor()): Cursor of database
+        conn (psycopg2.connect()): Connection to database
+        filepath (str): Filepath parent of the logs to be analyzed
+        func (python function): Function to be used to process each log
+    Returns:
+        Name of files processed
+    """
     # get all files matching extension from directory
     all_files = []
     for root, dirs, files in os.walk(filepath):
@@ -85,6 +113,10 @@ def process_data(cur, conn, filepath, func):
 
 
 def main():
+    """
+    Function used to extract, transform all data from song and user activity logs and load it into a PostgreSQL DB
+        Usage: python3 etl.py
+    """
     conn = psycopg2.connect("host=127.0.0.1 dbname=sparkifydb user=student password=student")
     cur = conn.cursor()
 
