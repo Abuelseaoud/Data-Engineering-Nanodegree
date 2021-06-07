@@ -34,5 +34,5 @@ combines this with log file derived data to populate the **songplays** fact tabl
  ## How To Run the Project
   * Way 1 : to run all cells in *Run.ipynb*
   * Way 2 : to execute the following python commands from terminal
-             1. python3 create_tables.py
-             1. python3 etl.py
+       1. python3 create_tables.py
+       1. python3 etl.py
