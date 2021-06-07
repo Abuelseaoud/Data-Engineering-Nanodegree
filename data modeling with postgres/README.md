@@ -7,6 +7,7 @@ The purpose of the database is to model song and log datasets (originaly stored 
 he star schema has 1 *fact* table (songplays), and 4 *dimension* tables (users, songs, artists, time).
 `DROP`, `CREATE`, `INSERT`, and `SELECT` queries are defined in **sql_queries.py**. **create_tables.py** 
 uses functions `create_database`, `drop_tables`, and `create_tables` to create the database sparkifydb and the required tables.
+![Schema ERD](Song_ERD.png)
 
 Extract, transform, load processes in **etl.py** populate the **songs** and **artists** tables with data derived from the JSON song files,
 `data/song_data`. Processed data derived from the JSON log files, `data/log_data`, is used to populate **time** and **users** tables.
