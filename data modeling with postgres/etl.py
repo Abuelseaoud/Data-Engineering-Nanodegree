@@ -17,16 +17,18 @@ def process_song_file(cur, filepath):
     """
     # open song file
     df =pd.read_json(filepath, lines=True)
+    
+    # insert artist record
+    artist_data =df[['artist_id','artist_name','artist_location','artist_latitude','artist_longitude']]
+    for value in artist_data.values:
+        cur.execute(artist_table_insert, value)
 
     # insert song record
     song_data =df[['song_id','title','artist_id','year','duration']]
     for value in song_data.values:
         cur.execute(song_table_insert, value)
     
-    # insert artist record
-    artist_data =df[['artist_id','artist_name','artist_location','artist_latitude','artist_longitude']]
-    for value in artist_data.values:
-        cur.execute(artist_table_insert, value)
+
 
 
 def process_log_file(cur, filepath):
