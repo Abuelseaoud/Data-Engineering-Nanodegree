@@ -29,7 +29,7 @@ combines this with log file derived data to populate the **songplays** fact tabl
     1. test.ipynb : to test the content of database tables 
           
 * Other files:
-*
+
    1. data.zip     : data compressed file for(log_files&song_files)
    1. Song_ERD.png : ERD Diagram of  `sparkifydb` database 
    1. dend-p1-lessons-cheat-sheet.pdf : very helpful cheat sheet to recap most of project functions and modules
