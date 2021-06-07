@@ -16,7 +16,8 @@ song_id varchar ,
 artist_id varchar,
 session_id int ,
 location varchar,
-user_agent varchar)
+user_agent varchar,
+PRIMARY KEY (songplay_id))
 """)
 
 user_table_create = ("""CREATE TABLE IF NOT EXISTS users(user_id int ,
