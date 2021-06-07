@@ -15,13 +15,13 @@ A `SELECT` query collects song and artist id from the **songs** and **artists** 
 combines this with log file derived data to populate the **songplays** fact table.
 
 ## Project Repository files
-*Python files '-.py-' :
+*Python files  '.py' :
  1.sql_queries.py :python file have all creation / insertion queries for creating tables in database and insert data from files
  1.create_tables.py :python script drops all tables if exist and recreate it
  1.etl.py :python script preform ETL operation(extract from json file ,transafer data to proper format ,load data in tables) 
  for all files in data.zip
  
- * Python notebook files'-.ipynb-':
+ * Python notebook files '.ipynb' :
  1. etl.ipynb :demonstrates ETL process step by step to check data extraction and format changing
  1. Run.ipynb :to execute project by run create_tables.py then etl.py  
  1. test.ipynb: to test the content of database tables 
