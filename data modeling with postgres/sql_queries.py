@@ -17,7 +17,12 @@ artist_id varchar,
 session_id int ,
 location varchar,
 user_agent varchar,
-PRIMARY KEY (songplay_id))
+PRIMARY KEY (songplay_id),
+CONSTRAINT fk_start_time_log FOREIGN KEY(start_time) REFERENCES time(start_time) ON DELETE CASCADE,
+CONSTRAINT fk_user_log FOREIGN KEY(user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+CONSTRAINT fk_song_log FOREIGN KEY(song_id) REFERENCES songs(song_id) ON DELETE CASCADE,
+CONSTRAINT fk_artist_log FOREIGN KEY(artist_id) REFERENCES artists(artist_id) ON DELETE CASCADE
+)
 """)
 
 user_table_create = ("""CREATE TABLE IF NOT EXISTS users(user_id int ,
@@ -34,7 +39,8 @@ title varchar,
 artist_id varchar,
 year int,
 duration decimal,
-PRIMARY KEY (song_id))
+PRIMARY KEY (song_id),
+CONSTRAINT fk_artist_song FOREIGN KEY(artist_id) REFERENCES artists(artist_id) ON DELETE CASCADE)
 """)
 
 artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists( artist_id  varchar , 
@@ -118,5 +124,5 @@ songs.duration= %s
 
 # QUERY LISTS
 
-create_table_queries = [songplay_table_create, user_table_create, song_table_create, artist_table_create, time_table_create]
-drop_table_queries = [songplay_table_drop, user_table_drop, song_table_drop, artist_table_drop, time_table_drop]
+create_table_queries = [artist_table_create, time_table_create, user_table_create, song_table_create,songplay_table_create ]
+drop_table_queries = [songplay_table_drop, song_table_drop, user_table_drop,  artist_table_drop, time_table_drop]
