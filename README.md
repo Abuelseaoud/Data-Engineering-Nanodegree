@@ -14,4 +14,6 @@ For our use case we want below answers:
 
  - Get details of a song that was herad on the music app history during a particular session. 
  - Get songs played by a user during particular session on music app. 
-  - Get all users from the music app history who listened to a particular song.
+ - Get all users from the music app history who listened to a particular song.
+ 
+Link: [Data_Modeling_with_Cassandra](https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/tree/main/Data%20Modeling%20with%20Cassandra)
