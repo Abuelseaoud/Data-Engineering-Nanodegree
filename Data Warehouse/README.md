@@ -1,5 +1,7 @@
 # Project Data warehouse
 
+<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Warehouse/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
+
 ## Project description
 
 Sparkify is a music streaming startup with a growing user base and song database.
