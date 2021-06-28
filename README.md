@@ -5,6 +5,8 @@ All projects of Udacity's [Data Engineering Nanodegree](https://www.udacity.com/
 
 ### Project 1: Data Modeling with Postgres
 
+<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/data%20modeling%20with%20postgres/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
+
 Developed a relational database using PostgreSQL to model user activity data for a music streaming app. Skills include:
 * Created a relational database using PostgreSQL
 * Developed a Star Schema database using optimized definitions of Fact and Dimension tables. Normalization of tables.
@@ -14,7 +16,11 @@ Proficiencies include: Python, PostgreSql, Star Schema, ETL pipelines, Normaliza
 
 Link: [Data_Modeling_with_Postgres](https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/tree/main/data%20modeling%20with%20postgres)
 
+
+
 ### Project 2: Data Modeling with Cassandra
+
+<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Modeling%20with%20Cassandra/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
 Designed a NoSQL database using Apache Cassandra based on the original schema outlined in project one. Skills include:
 * Created a nosql database using Apache Cassandra (both locally and with docker containers)
@@ -23,6 +29,7 @@ Designed a NoSQL database using Apache Cassandra based on the original schema ou
 Proficiencies used: Python, Apache Cassandra, Denormalization
  
 Link: [Data_Modeling_with_Cassandra](https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/tree/main/Data%20Modeling%20with%20Cassandra)
+
 
 
 ### Project 3:Data Warehouse - Amazon Redshift
