@@ -27,6 +27,8 @@ Link: [Data_Modeling_with_Cassandra](https://github.com/Abuelseaoud/Data-Enginee
 
 ### Project 3:Data Warehouse - Amazon Redshift
 
+<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Warehouse/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
+
 Created a database warehouse utilizing Amazon Redshift. Skills include:
 * Creating a Redshift Cluster, IAM Roles, Security groups.
 * Develop an ETL Pipeline that copies data from S3 buckets into staging tables to be processed into a star schema
