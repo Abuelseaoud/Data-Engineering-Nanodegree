@@ -57,7 +57,7 @@ SONG_DATA='s3://udacity-dend/song_data'
 
     `$ python3 etl.py`
     
-6. optional :when you need to delete your cluster run *IAC_shutdown* script .it deletes the cluster and the arn.
+6. optional : when you need to delete your cluster run *IAC_shutdown* script .it deletes the cluster and the arn.
 
     `$ python3 IAC_shutdown.py`
 
@@ -77,7 +77,7 @@ This project includes five script files:
 
 ## Database schema design
 
-<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Warehouse/schema%20design.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
+
 
 #### Staging Tables
 - staging_events
