@@ -77,6 +77,7 @@ This project includes five script files:
 
 ## Database schema design
 
+<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Warehouse/schema%20design.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
 #### Staging Tables
 - staging_events
