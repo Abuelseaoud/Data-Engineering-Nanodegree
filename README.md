@@ -36,4 +36,4 @@ Created a database warehouse utilizing Amazon Redshift. Skills include:
 
 Proficiencies used: Python, Amazon Redshift, aws cli, Amazon SDK, SQL, PostgreSQL
  
-Link: [Data_Modeling_with_Cassandra](https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/tree/main/Data%20Warehouse)
+Link: [Data Warehouse - Amazon Redshift](https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/tree/main/Data%20Warehouse)
