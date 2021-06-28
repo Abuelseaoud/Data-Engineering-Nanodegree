@@ -3,7 +3,7 @@ All projects of Udacity's [Data Engineering Nanodegree](https://www.udacity.com/
 
 ## Projects
 
-### Project 1: Data Modeling with Postgres
+## Project 1: Data Modeling with Postgres
 
 <p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/data%20modeling%20with%20postgres/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
@@ -18,7 +18,7 @@ Link: [Data_Modeling_with_Postgres](https://github.com/Abuelseaoud/Data-Engineer
 
 
 
-### Project 2: Data Modeling with Cassandra
+## Project 2: Data Modeling with Cassandra
 
 <p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Modeling%20with%20Cassandra/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
@@ -32,7 +32,7 @@ Link: [Data_Modeling_with_Cassandra](https://github.com/Abuelseaoud/Data-Enginee
 
 
 
-### Project 3:Data Warehouse - Amazon Redshift
+## Project 3:Data Warehouse - Amazon Redshift
 
 <p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/Data%20Warehouse/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
