@@ -1,5 +1,7 @@
 # Project 1: Data modeling with Postgres
 
+<p align="center"><img src="https://github.com/Abuelseaoud/Data-Engineering-Nanodegree/blob/main/data%20modeling%20with%20postgres/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
+
 This **Udacity Data Engineering nanodegree** project creates a postgres database `sparkifydb` for a music app, *Sparkify*.
 The purpose of the database is to model song and log datasets (originaly stored in JSON format) with a star schema optimised for queries on song play analysis.
 
